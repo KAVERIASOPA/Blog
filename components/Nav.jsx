@@ -102,7 +102,7 @@ const Nav = () => {
                                     className='dropdown_link'
                                     onClick={() => setToggleDropDown(false)}
                                 >
-                                    Create Prompt
+                                    Create Blog
                                 </Link>
                                 <button
                                     onClick={() => {
