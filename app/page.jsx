@@ -7,12 +7,12 @@ const Home = () => {
                 Your Thoughts, Your Voice, Your Blog.
                 <br className='max-md:hidden' />
                 <span className='orange_gradient text-center'>
-                   Create Your Blogs
+                   Write. Share. Grow.
                 </span>
             </h1>
             <p className='desc text-center'>
-                Generate better prompt to fasten your process of utilizing
-                popular Generative AI Tools available in market!!
+               Discover your blogging potential with our user-friendly platform 
+                 create, share, and connect with fellow writers effortlessly!!!
             </p>
             <Feed />
         </section>
