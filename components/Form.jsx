@@ -7,8 +7,8 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                 <span className='blue_gradient'>{type} Post</span>
             </h1>
             <p className='desc text-left max-w-md'>
-                {type} and share amazing prompts with the world, and let your
-                imagination run wild with any AI-powered plateform.
+               Elevate your online presence with our intuitive blog application,
+                where creativity meets community for limitless storytelling
             </p>
             <form
                 onSubmit={handleSubmit}
@@ -16,7 +16,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
             >
                 <label>
                     <span className='font-satoshi font-semibold text-base text-gray-700'>
-                        Your AI Prompt
+                       Create Your Blog
                     </span>
 
                     <textarea
@@ -24,7 +24,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
                         onChange={(e) =>
                             setPost({ ...post, prompt: e.target.value })
                         }
-                        placeholder='Write your prompt here...'
+                        placeholder='Write your Blog here...'
                         required
                         className='form_textarea'
                     />
