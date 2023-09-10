@@ -4,8 +4,8 @@ import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 
 export const metadata = {
-    title: 'Prompt-Gen',
-    description: 'Discover & Share AI Prompts',
+    title: 'My Blog',
+    description: 'Discover & Share your thoughts...',
 };
 
 const RootLayout = ({ children }) => {
